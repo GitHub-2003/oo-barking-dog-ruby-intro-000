@@ -1,12 +1,12 @@
 class Dog
-  def name
+  def name              # Getter
     @name
   end
-  def bark
-    puts "Woof!"
-  end
-  def name=(new_name)
+  def name=(new_name)   # Setter
     @name = new_name
+  end
+  def bark              # do this at instantiation
+    puts "Woof!"
   end
 end
 
