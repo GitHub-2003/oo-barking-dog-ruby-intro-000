@@ -6,7 +6,7 @@ class Dog
     @name = new_name
   end
   def bark              # do this at instantiation
-    puts "Woof!"
+    puts "woof!"
   end
 end
 
